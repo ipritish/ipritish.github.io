@@ -16,7 +16,7 @@ angular.module('resume')
         templateUrl: 'app/components/resume/resume.html'
     });
 	$stateProvider.state('home', {
-        url: '/',
+        url: '/test',
         templateUrl: 'app/components/main/main.html'
     });
     /* Add New States Above */
