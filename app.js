@@ -7,8 +7,8 @@ angular.module('resume')
       requireBase: false
     });
 
-    $stateProvider.state('bioData', {
-        url: '/bioData',
+    $stateProvider.state('bio', {
+        url: '/bio',
         templateUrl: 'app/components/bioData/bio.html'
     });
     $stateProvider.state('resume', {
