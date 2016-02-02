@@ -1,0 +1,25 @@
+{
+  "name": "resume_bio_info ",
+  "homepage": "https://github.com/ipritish/ipritish.github.io",
+  "authors": [
+    "pritish"
+  ],
+  "description": "online resume and bio",
+  "main": "app.js",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.4.9",
+    "bootstrap": "^3.3.6",
+    "angular-ui-router": "ui-router#^0.2.17",
+    "angular-resource": "^1.4.9"
+  }
+}
