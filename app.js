@@ -1,4 +1,4 @@
-angular.module('resume', []);
+angular.module('resume', ['ui.router']);
 angular.module('resume')
 .config(['$stateProvider', '$urlRouterProvider', '$locationProvider',function($stateProvider, $urlRouterProvider, $locationProvider) 
 {
@@ -16,7 +16,7 @@ angular.module('resume')
         templateUrl: 'app/components/resume/resume.html'
     });
 	$stateProvider.state('home', {
-        url: '/test',
+        url: '/',
         templateUrl: 'app/components/main/main.html'
     });
     /* Add New States Above */
