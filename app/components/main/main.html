@@ -1,16 +1,16 @@
-<div class="row">
+<div id="main" class="row" ng-controller="mainController as mainCtrl">
 <h1 class="page-header">
 	<p class="text-center">Welcome To My Page</p>
 </h1>
 <div class="row">
 	<div class="col-xs-6">
 		<div class="text-center">
-			<button class="btn btn-default" type="submit">BIO</button>
+			<button class="btn btn-default" type="submit" ng-click="mainCtrl.fetchBIO()">BIO</button>
 		</div>
 	</div>
 	<div class="col-xs-6">
 		<div class="text-center">
-			<button class="btn btn-default" type="submit">Resume</button>
+			<button class="btn btn-default" type="submit" ng-click="mainCtrl.fetchResume()">Resume</button>
 		</div>
 	</div>
 </div>
