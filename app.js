@@ -9,7 +9,7 @@ angular.module('myInfo')
 
     $stateProvider.state('bio', {
         url: '/bio',
-        templateUrl: 'app/components/bioData/bio.html'
+        templateUrl: 'app/components/bio/bio.html'
     });
     $stateProvider.state('resume', {
         url: '/resume',
