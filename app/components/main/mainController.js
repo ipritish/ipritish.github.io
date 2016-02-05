@@ -1,4 +1,4 @@
-angular.module('resume')
+angular.module('myInfo')
 .controller('mainController',['$state','$scope', function($state,$scope) 
 {
 
