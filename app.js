@@ -1,5 +1,5 @@
-angular.module('resume', ['ui.router']);
-angular.module('resume')
+angular.module('myInfo', ['ui.router']);
+angular.module('myInfo')
 .config(['$stateProvider', '$urlRouterProvider', '$locationProvider',function($stateProvider, $urlRouterProvider, $locationProvider) 
 {
     $locationProvider.html5Mode({
