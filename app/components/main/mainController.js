@@ -1,5 +1,5 @@
 angular.module('resume')
-.controller('mainController',['$state', ,function($state) 
+.controller('mainController',['$state', function($state) 
 {
 
 	var mainController = this;
