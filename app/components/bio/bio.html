@@ -1,3 +1,11 @@
-<div id="bio" class="row" ng-controller="bioController as bioController">
-Hello World
+<div id="bio" class="row" ng-controller="bioController">
+<table class="table">
+	<tr>
+		 <h3><br>Personal Details</h3>
+	</tr>
+	<tr ng-repeat="singleDetail in details">
+		<td>{{singleDetail.key}}</td>
+		<td>{{singleDetail.detail}}</td>
+	</tr>
+</table>
 </div>
