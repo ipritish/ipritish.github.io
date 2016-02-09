@@ -1,11 +1,17 @@
 <div id="bio" class="row" ng-controller="bioController">
 <table class="table">
 	<tr>
-		 <h3><br>Personal Details</h3>
+		 <h3 class="text-center"><br>Personal Details</h3>
 	</tr>
 	<tr ng-repeat="singleDetail in details">
-		<td>{{singleDetail.key}}</td>
-		<td>{{singleDetail.detail}}</td>
+		<div class="row">
+		<div class="col-xs-6">
+			<td class="text-center">{{singleDetail.key}}</td>
+		</div >
+		<div class="col-xs-6">
+			<td class="text-center">{{singleDetail.detail}}</td>
+		</div>
+		</div>
 	</tr>
 </table>
 </div>
