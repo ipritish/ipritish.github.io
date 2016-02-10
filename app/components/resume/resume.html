@@ -1,3 +1,11 @@
-<div id="resume" class="row" ng-controller="resumeController as resumeController">
-Hello World
+<div id="bio" ng-controller="resumeController">
+<table class="table">
+	<tr>
+		 <h3 style="text-align:center"><br>Personal Details</h3>
+	</tr>
+	<tr ng-repeat="singleDetail in details">
+		<td style="text-align:center">{{singleDetail.key}}</td>
+		<td style="text-align:center">{{singleDetail.detail}}</td>
+	</tr>
+</table>
 </div>

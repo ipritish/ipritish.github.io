@@ -1,6 +1,7 @@
 angular.module('myInfo')
 .controller('resumeController',['$state','$scope', function($state,$scope) 
 {
-		var resumeController = this;
+	$scope.details = [{"key":"test","detail" : "test"},
+					{"key" : "test2","detail" : "test2"}];
 
 }]);
