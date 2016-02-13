@@ -3,9 +3,25 @@
 	<tr>
 		 <h3 style="text-align:center"><br>Personal Details</h3>
 	</tr>
-	<tr ng-repeat="singleDetail in details">
+	<tr ng-repeat="singleDetail in personalDetails">
 		<td style="text-align:center">{{singleDetail.key}}</td>
-		<td style="text-align:center">{{singleDetail.detail}}</td>
+		<td style="text-align:center">{{singleDetail.personalDetail}}</td>
+	</tr>
+	
+		<tr>
+		 <h3 style="text-align:center"><br>Family Details</h3>
+	</tr>
+	<tr ng-repeat="singleDetail in familyDetails">
+		<td style="text-align:center">{{singleDetail.key}}</td>
+		<td style="text-align:center">{{singleDetail.familyDetail}}</td>
+	</tr>
+	
+	<tr>
+		 <h3 style="text-align:center"><br>Communication Details</h3>
+	</tr>
+	<tr ng-repeat="singleDetail in communicationDetails">
+		<td style="text-align:center">{{singleDetail.key}}</td>
+		<td style="text-align:center">{{singleDetail.communicationDetail}}</td>
 	</tr>
 </table>
 </div>
