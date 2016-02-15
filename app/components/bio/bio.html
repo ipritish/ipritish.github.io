@@ -1,46 +1,36 @@
 <div id="bio" ng-controller="bioController">
 <table class="table">
 	<thead>
-		<tr>
-			<td colspan="2" style="text-align:center"><br>Personal Details</td>
-		</tr>
 	</thead>
+
 	<tbody>
-	<tr ng-repeat="singlePersonalDetail in personalDetails">
-		<td style="text-align:center">{{singlePersonalDetail.key}}</td>
-		<td style="text-align:center">{{singlePersonalDetail.personalDetail}}</td>
-	</tr>
-	</tbody>
-
-</table>
-
-<table class="table">
-	<thead>
-		 <tr>
+		<tr>
+			<th colspan="2" style="text-align:center"><br>Personal Details</th>
+		</tr>
+		<tr ng-repeat="singlePersonalDetail in personalDetails">
+			<td style="text-align:center">{{singlePersonalDetail.key}}</td>
+			<td style="text-align:center">{{singlePersonalDetail.personalDetail}}</td>
+		</tr>
+		
+		<tr>
 			<td colspan="2" style="text-align:center"><br>Family Details</td>
 		</tr>
-	</thead>
-	<tbody>
-	<tr ng-repeat="singleFamilyDetail in familyDetails">
-		<td style="text-align:center">{{singleFamilyDetail.key}}</td>
-		<td style="text-align:center">{{singleFamilyDetail.familyDetail}}</td>
-	</tr>
-	</tbody>
-
-</table>	
-
-<table class="table">
-	<thead>
-		 <tr>
+		<tr ng-repeat="singleFamilyDetail in familyDetails">
+			<td style="text-align:center">{{singleFamilyDetail.key}}</td>
+			<td style="text-align:center">{{singleFamilyDetail.familyDetail}}</td>
+		</tr>
+		
+		<tr>
 			<td colspan="2" style="text-align:center"><br>Communication Details</td>
 		</tr>
-	</thead>
-	<tbody>
-	<tr ng-repeat="singleCommDetail in communicationDetails">
-		<td style="text-align:center">{{singleCommDetail.key}}</td>
-		<td style="text-align:center">{{singleCommDetail.communicationDetail}}</td>
-	</tr>
+		<tr ng-repeat="singleCommDetail in communicationDetails">
+			<td style="text-align:center">{{singleCommDetail.key}}</td>
+			<td style="text-align:center">{{singleCommDetail.communicationDetail}}</td>
+		</tr>
 	</tbody>
+	
+	<tfoot>
+	</tfoot>
 
 </table>
 
