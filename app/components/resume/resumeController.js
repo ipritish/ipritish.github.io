@@ -14,5 +14,10 @@ angular.module('myInfo')
 											"email" :"pritishjain2009@gmail.com"
 										}
 								}];
+	$scope.employmentDetails = [{
+									"jobTitle" : "Software Developer",
+									"company":"Pfizer Inc",
+									"timeOfEmplyment":"June 2013 - Present"
+								}];
 
 }]);

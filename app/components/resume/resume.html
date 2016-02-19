@@ -16,4 +16,16 @@
 		</td>
 	</tr>
 </table>
+
+<table class="table table-bordered">
+	<tr>
+		<th colspan="3" class="employmentTitleStyle">EMPLOYMENT</th>
+	</tr>
+	<tr ng-repeat="singleEmployment in employmentDetails">
+		<td class="companyDetailStyle">{{singleEmployment.jobTitle}}</td>
+		<td class="companyDetailStyle">{{singleEmployment.company}}</td>
+		<td class="companyDetailStyle">{{singleEmployment.timeOfEmplyment}}</td>
+	</tr>
+</table>
+
 </div>
