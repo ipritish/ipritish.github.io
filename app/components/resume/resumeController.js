@@ -19,5 +19,11 @@ angular.module('myInfo')
 									"company":"Pfizer Inc",
 									"timeOfEmplyment":"June 2013 - Present"
 								}];
+	
+	$scope.educationDetails = [{
+									"city" : "Gandhinagar Gujarat",
+									"institute":"IIT Gandhinagar",
+									"timeOfEducation":"June 2009 - May 2013"
+								}];
 
 }]);
