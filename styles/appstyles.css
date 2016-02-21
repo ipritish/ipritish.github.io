@@ -27,7 +27,32 @@ th
 .employmentTitleStyle
 {
 	width:100%;
-	margin-left:5%;
+	margin-left:5%
+}
+
+.educationTitleStyle
+{
+	width:100%;
+	margin-left:5%
+}
+
+.techExpTitleStyle
+{
+	width:100%;
+	margin-left:5%
+}
+
+
+.awardsTitleStyle
+{
+	width:100%;
+	margin-left:5%
+}
+
+.techTitleStyle
+{
+	width:100%;
+	margin-left:5%
 }
 
 .companyDetailStyle
@@ -37,7 +62,8 @@ th
 	vertical-align:middle
 }
 
-.firstJobStyle
+
+.jobStyle
 {
 	margin-left: 2%
 }

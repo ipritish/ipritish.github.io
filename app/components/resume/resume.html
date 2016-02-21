@@ -28,56 +28,91 @@
 	</tr>
 	<tr>
 		<td colspan="3">
-			<p class="firstJobStyle"><b>MedNet Cloud</b></p>
+			<p class="jobStyle"><b>MedNet Cloud</b></p>
 				<ul>
-					<li>Coffee</li>
-					<li>Tea</li>
-					<li>Milk</li>
+					<li ng-repeat="details in firstProject">{{details}}</li>
 				</ul>
 
 		</td>
 	</tr>
 	<tr>
 		<td colspan="3">
-			<p class="firstJobStyle"><b>Next Generation LVP</b></p>
+			<p class="jobStyle"><b>Next Generation LVP</b></p>
 				<ul>
-					<li>Coffee</li>
-					<li>Tea</li>
-					<li>Milk</li>
+					<li ng-repeat="details in secondProject">{{details}}</li>
 				</ul>
 
 		</td>
 	</tr>
 	<tr>
 		<td colspan="3">
-			<p class="firstJobStyle"><b>MedNet</b></p>
+			<p class="jobStyle"><b>MedNet</b></p>
 				<ul>
-					<li>Coffee</li>
-					<li>Tea</li>
-					<li>Milk</li>
+					<li ng-repeat="details in thirdProject">{{details}}</li>
 				</ul>
 
 		</td>
 	</tr>
 	<tr>
 		<td colspan="3">
-			<p class="firstJobStyle"><b>CE (Communication Engine)</b></p>
+			<p class="jobStyle"><b>CE (Communication Engine)</b></p>
 				<ul>
-					<li>Coffee</li>
-					<li>Tea</li>
-					<li>Milk</li>
+					<li ng-repeat="details in fourthProject">{{details}}</li>
 				</ul>
 
 		</td>
 	</tr>
 	<!-- from here education details-->
 	<tr>
-		<th colspan="3" class="employmentTitleStyle">EDUCATION</th>
+		<th colspan="3" class="educationTitleStyle">EDUCATION</th>
 	</tr>
 	<tr ng-repeat="singleDetail in educationDetails">
 		<td class="educationDetailStyle">{{singleDetail.city}}</td>
 		<td class="educationDetailStyle">{{singleDetail.institute}}</td>
 		<td class="educationDetailStyle">{{singleDetail.timeOfEducation}}</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<ul>
+				<li ng-repeat="details in undergradeCourse">{{details}}</li>
+			</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th colspan="3" class="techExpTitleStyle">TECHNICAL EXPERIENCE</th>
+	</tr>
+	
+	<tr>
+		<td colspan="3">
+			<ul>
+				<li ng-repeat="details in techExperience">{{details}}</li>
+			</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th colspan="3" class="awardsTitleStyle">ADDITIONAL EXPERIENCE AND AWARDS</th>
+	</tr>
+	
+	<tr>
+		<td colspan="3">
+			<ul>
+				<li ng-repeat="details in additionalDetails">{{details}}</li>
+			</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th colspan="3" class="techTitleStyle">Language and Techonologies</th>
+	</tr>
+	
+	<tr>
+		<td colspan="3">
+			<ul>
+				<li ng-repeat="details in techincalDetails">{{details}}</li>
+			</ul>
+		</td>
 	</tr>
 </table>
 
