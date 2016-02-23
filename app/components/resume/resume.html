@@ -26,42 +26,17 @@
 		<td class="companyDetailStyle">{{singleEmployment.company}}</td>
 		<td class="companyDetailStyle">{{singleEmployment.timeOfEmplyment}}</td>
 	</tr>
-	<tr>
+	
+	<tr ng-repeat="project in job">
 		<td colspan="3">
-			<p class="jobStyle"><b>Test</b></p>
+			<p class="jobStyle"><b>{{project.title}}</b></p>
 				<ul>
-					<li ng-repeat="details in firstProject">{{details}}</li>
+					<li ng-repeat="details in project.description">{{details}}</li>
 				</ul>
 
 		</td>
 	</tr>
-	<tr>
-		<td colspan="3">
-			<p class="jobStyle"><b>Test</b></p>
-				<ul>
-					<li ng-repeat="details in secondProject">{{details}}</li>
-				</ul>
-
-		</td>
-	</tr>
-	<tr>
-		<td colspan="3">
-			<p class="jobStyle"><b>Test</b></p>
-				<ul>
-					<li ng-repeat="details in thirdProject">{{details}}</li>
-				</ul>
-
-		</td>
-	</tr>
-	<tr>
-		<td colspan="3">
-			<p class="jobStyle"><b>Test</b></p>
-				<ul>
-					<li ng-repeat="details in fourthProject">{{details}}</li>
-				</ul>
-
-		</td>
-	</tr>
+	
 	<!-- from here education details-->
 	<tr>
 		<th colspan="3" class="educationTitleStyle">EDUCATION</th>

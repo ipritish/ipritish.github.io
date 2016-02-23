@@ -26,31 +26,42 @@ angular.module('myInfo')
 									"institute":"test",
 									"timeOfEducation":"test"
 							   }];
-	
-	$scope.firstProject = [
-							"tea",
-							"milk",
-							"coffee"
-						  ];
-						  
-	$scope.secondProject = [
-							"tea",
-							"milk",
-							"coffee"
-						   ];
-						   
-	$scope.thirdProject = [
-							"tea",
-							"milk",
-							"coffee"
-						  ];
-						  
-	$scope.fourthProject = [
-							"tea",
-							"milk",
-							"coffee"
-						   ];						  
-	
+							   
+	$scope.job = [
+					{	
+						"title":"test1",
+						"description":[
+										"tea",
+										"milk",
+										"coffee"
+									 ]
+					},
+					{
+						"title":"test2",
+						"description":[
+										"tea",
+										"milk",
+										"coffee"
+									 ]
+					},
+					{
+						"title":"test3",
+						"description":[
+										"tea",
+										"milk",
+										"coffee"
+									 ]
+					},
+					{
+						"title":"test4",
+						"description":[
+										"tea",
+										"milk",
+										"coffee"
+									 ]
+					}
+				 ];
+
 	$scope.undergradeCourse = [
 								"tea",
 								"milk",
