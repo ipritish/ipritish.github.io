@@ -4,31 +4,33 @@ angular.module('myInfo')
 	$scope.communicationDetails = [{
 									"address":
 										{
-											"line1" :"21/9 Bajanai Koil 3rd Street",
-											"line2":"Chennai Tamilnadu 600094"
+											"line1" :"test",
+											"line2":"test"
 										},
 									"name":"test",
 									"contacts":
 										{
-											"phone":"(+91)9962779926",
-											"email" :"pritishjain2009@gmail.com"
+											"phone":"test",
+											"email" :"test"
 										}
 								   }];
 								
 	$scope.employmentDetails = [{
 									"jobTitle" : "Software Developer",
-									"company":"Pfizer Inc",
+									"company":"test",
 									"timeOfEmplyment":"June 2013 - Present"
 								}];
 	
 	$scope.educationDetails = [{
-									"city" : "Gandhinagar Gujarat",
-									"institute":"IIT Gandhinagar",
-									"timeOfEducation":"June 2009 - May 2013"
+									"city" : "test",
+									"institute":"test",
+									"timeOfEducation":"test"
 							   }];
 	
 	$scope.firstProject = [
-							"tea","milk","coffee"
+							"tea",
+							"milk",
+							"coffee"
 						  ];
 						  
 	$scope.secondProject = [
