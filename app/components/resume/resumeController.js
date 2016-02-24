@@ -1,7 +1,7 @@
 angular.module('myInfo')
 .controller('resumeController',['$state','$scope', function($state,$scope) 
 {
-	$scope.communicationDetails = [{
+	$scope.communicationDetails =  [{
 									"address":
 										{
 											"line1" :"test",
