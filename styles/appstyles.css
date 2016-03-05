@@ -7,70 +7,82 @@ th
 {	
 	width:33%;
 	text-align:center; 
-	vertical-align:middle
+	vertical-align:middle;
 }
 
 .resumeHeaderAddressStyle
 {	
 	width:33%;
 	text-align:center; 
-	vertical-align:middle
+	vertical-align:middle;
 }
 
 .resumeHeaderContactStyle
 {	
 	width:33%;
 	text-align:center; 
-	vertical-align:middle
+	vertical-align:middle;
 }
 
 .employmentTitleStyle
 {
 	width:100%;
-	margin-left:5%
+	margin-left:5%;
 }
 
 .educationTitleStyle
 {
 	width:100%;
-	margin-left:5%
+	margin-left:5%;
 }
 
 .techExpTitleStyle
 {
 	width:100%;
-	margin-left:5%
+	margin-left:5%;
 }
 
 
 .awardsTitleStyle
 {
 	width:100%;
-	margin-left:5%
+	margin-left:5%;
 }
 
 .techTitleStyle
 {
 	width:100%;
-	margin-left:5%
+	margin-left:5%;
 }
 
 .companyDetailStyle
 {
 	width:33%;
 	text-align:center; 
-	vertical-align:middle
+	vertical-align:middle;
 }
 
 
 .jobStyle
 {
-	margin-left: 2%
+	margin-left: 2%;
 }
 
 .educationDetailStyle
 {
 	width:33%;
 	text-align:center; 
-	vertical-align:middle
+	vertical-align:middle;
+}
+
+.bioNameStyle
+{
+	text-align:center; 
+	vertical-align:middle;
+}
+
+.bioTableHeaderStyle
+{
+	text-align:center;
+	background-color:#ff9900;
 }
