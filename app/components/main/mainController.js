@@ -4,11 +4,6 @@ angular.module('myInfo')
 
 	var mainController = this;
 	
-	mainController.fetchBIO = function()
-	{
-		$state.go('bio');
-	};
-	
 	mainController.fetchResume = function()
 	{
 		$state.go('resume');
