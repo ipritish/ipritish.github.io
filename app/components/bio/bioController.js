@@ -8,9 +8,9 @@ angular.module('myInfo')
 							  {"key" : "test","personalDetail" : "test2"},
 							  {"key" : "test","personalDetail" : "test2"}];
 					
-	$scope.familyDetails = [{"key":"test","familyDetail" : "test"},
+	$scope.familyDetails = [{"key":"test1","familyDetail" : "test1"},
 							{"key" : "test2","familyDetail" : "test2"}];
 							
-	$scope.communicationDetails = [{"key":"test","communicationDetail" : "test"},
+	$scope.communicationDetails = [{"key":"test1","communicationDetail" : "test1"},
 							{"key" : "test2","communicationDetail" : "test2"}];
 }]);
