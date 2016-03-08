@@ -25,5 +25,5 @@ angular.module('myInfo')
 							{"key" : "Phone No.","familyDetail" : "(+91) 9712154455"}];
 							
 	$scope.communicationDetails = [{"key":"Residence","communicationDetail" : "F1, Plot no. 38, Vishwaishwaraiya Nagar, Gopalpura, Jaipur"},
-							{"key" : "Phone No.","communicationDetail" : "(+91)9962779926"}];
+							{"key" : "Phone No.","communicationDetail" : "(+91) 9962779926"}];
 }]);
