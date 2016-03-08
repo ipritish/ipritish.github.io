@@ -1,5 +1,5 @@
 <div class="table-responsive" id="bio" ng-controller="bioController">
-<h3 class="bioNameStyle">Name</h3>
+<h3 class="bioNameStyle">Bio Data</h3>
 <table class="table table-bordered">
 
 	<thead>
@@ -10,24 +10,24 @@
 			<th colspan="2" class="bioTableHeaderStyle">Personal Details</th>
 		</tr>
 		<tr ng-repeat="singlePersonalDetail in personalDetails">
-			<td style="text-align:center">{{singlePersonalDetail.key}}</td>
-			<td style="text-align:center">{{singlePersonalDetail.personalDetail}}</td>
+			<td style="text-align:center; width:50%">{{singlePersonalDetail.key}}</td>
+			<td style="text-align:center; width:50%">{{singlePersonalDetail.personalDetail}}</td>
 		</tr>
 		
 		<tr>
 			<th colspan="2" class="bioTableHeaderStyle">Family Details</th>
 		</tr>
 		<tr ng-repeat="singleFamilyDetail in familyDetails">
-			<td style="text-align:center">{{singleFamilyDetail.key}}</td>
-			<td style="text-align:center">{{singleFamilyDetail.familyDetail}}</td>
+			<td style="text-align:center; width:50%">{{singleFamilyDetail.key}}</td>
+			<td style="text-align:center; width:50%">{{singleFamilyDetail.familyDetail}}</td>
 		</tr>
 		
 		<tr>
 			<th colspan="2" class="bioTableHeaderStyle">Communication Details</th>
 		</tr>
 		<tr ng-repeat="singleCommDetail in communicationDetails">
-			<td style="text-align:center">{{singleCommDetail.key}}</td>
-			<td style="text-align:center">{{singleCommDetail.communicationDetail}}</td>
+			<td style="text-align:center; width:50%">{{singleCommDetail.key}}</td>
+			<td style="text-align:center; width:50%">{{singleCommDetail.communicationDetail}}</td>
 		</tr>
 	</tbody>
 	
