@@ -8,7 +8,7 @@ angular.module('myInfo')
 							  {"key" : "Occupation","personalDetail" : "Software Developer at Pfizer"},
 							  {"key" : "Qualification","personalDetail" : "B. Tech. in Electrical (IIT Gandhinagar)"},
 							  {"key" : "Gotra","personalDetail" : "Sogani (Self), Bohra (Nanihal)"},
-							  "key" : "Hobbies","personalDetail" : "Reading Books, Watching Animes"}];
+							  {"key" : "Hobbies","personalDetail" : "Reading Books, Watching Animes"}];
 					
 	$scope.familyDetails = [{"key":"Father","familyDetail" : "Padam Kumar Jain"},
 							{"key" : "Occupation","familyDetail" : "Manager at United India Insurance Company"},
