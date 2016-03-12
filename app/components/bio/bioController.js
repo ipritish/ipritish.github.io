@@ -8,23 +8,35 @@ angular.module('myInfo')
 							  {"key" : "Occupation","personalDetail" : "Software Developer at Pfizer"},
 							  {"key" : "Qualification","personalDetail" : "B. Tech. in Electrical (IIT Gandhinagar)"},
 							  {"key" : "Gotra","personalDetail" : "Sogani (Self), Bohra (Nanihal)"},
-							  {"key" : "Hobbies","personalDetail" : "Reading Books, Watching Animes"}];
+							  {"key" : "Hobbies","personalDetail" : "Reading Books, Watching Animes"},
+							  {"key":"Residence","personalDetail" : "Chennai"},
+							  {"key" : "Phone No.","personalDetail" : "(+91) 9962779926"}];
 					
-	$scope.familyDetails = [{"key":"Father","familyDetail" : "Padam Kumar Jain"},
-							{"key" : "Occupation","familyDetail" : "Manager at United India Insurance Company"},
+	$scope.familyDetails = [{"key":"Papa","familyDetail" : "Padam Kumar Jain"},
+							{"key" : "Occupation","familyDetail" : "Service at Jaipur (Insurance Company)"},
 							{"key" : "Phone No.","familyDetail" : "(+91) 9252417579"},
-							{"key":"Mother","familyDetail" : "Preeti Jain"},
-							{"key" : "Occupation","familyDetail" : "Housewife"},
+							{"key":"Mummy","familyDetail" : "Preeti Jain"},
+							{"key" : "Occupation","familyDetail" : "Home Maker"},
 							{"key" : "Phone No.","familyDetail" : "(+91) 9252188788"},
-							{"key":"Brother","familyDetail" : "Pulkit Jain"},
-							{"key" : "Occupation","familyDetail" : "Preparing for CA Final"},
+							{"key":"Bhai","familyDetail" : "Pulkit Jain"},
+							{"key" : "Occupation","familyDetail" : "Pursuing CA"},
+							{"key":"Dada","familyDetail" : "Chothmal Jain"},
+							{"key" : "Occupation","familyDetail" : "Retired as Accountant"},
 							{"key":"Nana","familyDetail" : "Padam Chand Jain"},
-							{"key" : "Occupation","familyDetail" : "Retired ...(will update)"},
-							{"key" : "Phone No.","familyDetail" : "(+91) 9928157893"},
+							{"key" : "Occupation","familyDetail" : "Retired Government Office Superintendent"},
+							{"key":"Tauji","familyDetail" : "Gyan Chand Jain"},
+							{"key" : "Occupation","familyDetail" : "CA CS"},
+							{"key" : "Phone No.","familyDetail" : "(+91) 9829053546"},
+							{"key":"Tauji","familyDetail" : "Chetan Kumar Jain"},
+							{"key" : "Occupation","familyDetail" : "Business at Tonk"},
+							{"key" : "Phone No.","familyDetail" : "(+91) 9667373244"},
+							{"key":"Chacha","familyDetail" : "Tara Chand Jain"},
+							{"key" : "Occupation","familyDetail" : "Business at Tonk"},
+							{"key" : "Phone No.","familyDetail" : "(+91) 9252616785"},
 							{"key":"Mama","familyDetail" : "Devendra Jain"},
-							{"key" : "Occupation","familyDetail" : "Atishay Consultancy"},
+							{"key" : "Occupation","familyDetail" : "CA"},
 							{"key" : "Phone No.","familyDetail" : "(+91) 9712154455"}];
 							
-	$scope.communicationDetails = [{"key":"Residence","communicationDetail" : "F1, Plot no. 38, Vishwaishwaraiya Nagar, Gopalpura, Jaipur"},
-							{"key" : "Phone No.","communicationDetail" : "(+91) 9962779926"}];
+	$scope.communicationDetails = [{"key":"Home Address","communicationDetail" : "F1, Plot no. 38, Vishwaishwaraiya Nagar, Gopalpura, Jaipur"}];
+	
 }]);
