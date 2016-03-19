@@ -22,9 +22,9 @@ angular.module('myInfo')
 								}];
 	
 	$scope.educationDetails = [{
-									"city" : "test",
-									"institute":"test",
-									"timeOfEducation":"test"
+									"city" : "test1",
+									"institute":"test1",
+									"timeOfEducation":"test1"
 							   }];
 							   
 	$scope.job = [
