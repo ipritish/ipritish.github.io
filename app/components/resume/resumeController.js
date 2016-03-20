@@ -16,7 +16,7 @@ angular.module('myInfo')
 								   }];
 								
 	$scope.employmentDetails = [{
-									"jobTitle" : "Software Developer",
+									"jobTitle" : "test",
 									"company":"test",
 									"timeOfEmplyment":"June 2013 - Present"
 								}];
