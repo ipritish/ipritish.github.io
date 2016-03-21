@@ -1,6 +1,27 @@
 angular.module('myInfo')
-.controller('resumeController',['$state','$scope', function($state,$scope) 
+.service('appMenuService',[function() {
+
+    this.getMApps = function(cb) {
+			var items = [1,2,3];
+			cb();
+            return items;
+        }
+    }
+
+
+])
+.controller('resumeController',['$state','$scope','appMenuService', function($state,$scope,appMenuService) 
 {
+	var items;
+	function getApps() 
+	{
+			items = appMenuService.getMApps(function() {
+	            console.log("It works");
+		});
+    }
+	
+	getApps();
+	console.log(items);
 	$scope.communicationDetails =  [{
 									"address":
 										{
