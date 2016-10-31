@@ -4,7 +4,7 @@ angular.module('myInfo')
 	$scope.personalDetails = [{"key":"Name","personalDetail" : "Pritish Jain"},
 							  {"key" : "Date Of Birth","personalDetail" : "12th May 1991"},
 							  {"key" : "Place of Birth","personalDetail" : "Tonk"},
-							  {"key" : "Height","personalDetail" : "5'2\""},
+							  {"key" : "Height","personalDetail" : "5'3\""},
 							  {"key" : "Occupation","personalDetail" : "Software Developer at Pfizer"},
 							  {"key" : "Qualification","personalDetail" : "B. Tech. in Electrical from IIT Gandhinagar"},
 							  {"key" : "Gotra","personalDetail" : "Sogani (Self), Bohra (Nanihal)"},
