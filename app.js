@@ -7,10 +7,6 @@ angular.module('myInfo')
       requireBase: false
     });
 
-    $stateProvider.state('bio', {
-        url: '/bio',
-        templateUrl: 'app/components/bio/bio.html'
-    });
     $stateProvider.state('resume', {
         url: '/resume',
         templateUrl: 'app/components/resume/resume.html'
