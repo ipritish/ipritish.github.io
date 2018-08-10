@@ -1,4 +1,4 @@
-angular.module('myInfo')
+angular.module('myInfo') 
 .controller('bioController',['$state','$scope', function($state,$scope) 
 {
 	$scope.personalDetails = [{"key":"Name","personalDetail" : "Pritish Jain"},
