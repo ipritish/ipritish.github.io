@@ -15,6 +15,10 @@ angular.module('myInfo')
         url: '/',
         templateUrl: 'app/components/main/main.html'
     });
+	$stateProvider.state('bio', {
+        url: '/bio',
+        templateUrl: 'app/components/bio/bio.html'
+    });
     /* Add New States Above */
     $urlRouterProvider.otherwise('home');
 
